@@ -130,6 +130,19 @@
         background-position: center;
 
     }
+
+    .heroText h1{
+        font-size: 30px;
+    }
+
+    .heroText h2{
+        font-size: 28px;
+    }
+
+    .scrollButton{
+        display: none;
+    }
+
     .articlesWrapper{
         width: 80%;
     }
