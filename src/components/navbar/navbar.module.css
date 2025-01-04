@@ -1,0 +1,65 @@
+.container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.logo h1{
+    cursor: pointer;
+}
+
+.menuItems{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menuItems p{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hamburger{
+    cursor: pointer;
+    font-size: 32px;
+    display: none;
+}
+
+.mobileMenu{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.mobileMenu p{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.closeMenu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1300px){
+    .menuItems{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+}

@@ -1,0 +1,100 @@
+.container{
+    width: 100%;
+}
+
+.hero{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.title h1{
+    font-size: 32px;
+}
+
+.information{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informationBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informationBlock h2{
+    font-size: 28px;
+}
+
+.informationBlock p{
+    font-size: 18px;
+}
+
+.recipes{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.recipesButtons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* gap: 50px; */
+    /* align-items: center; */
+}
+
+.recipeButton{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+}
+
+.recipe{
+    font-size: 14px;
+}
+
+.recipe ul{
+    margin-left: 20px;
+}
+
+.recipeButton img{
+    object-fit: contain;
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+}
+
+@media all and (max-width: 768px) {
+    .title h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .recipesButtons{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .recipeButton{
+        width: 80%;
+    }
+
+    .recipeButton img{
+        width: 100%;
+        object-fit: contain;
+        height: 200px;
+    }
+    
+}

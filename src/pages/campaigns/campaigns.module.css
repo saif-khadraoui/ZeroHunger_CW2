@@ -1,0 +1,102 @@
+.container{
+    width: 100%;
+}
+
+.hero{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.heroInformation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.heroImage img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.quizWrapper{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quiz{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button{
+    cursor: pointer;
+    padding: 3px 5px;
+    background-color: #169bd4;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.survery{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formWrapper form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formWrapper form textarea{
+    height: 300px;
+    outline: none;
+    padding: 20px;
+}
+
+.formWrapper form .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formWrapper form .button button{
+    width: 100px;
+    cursor: pointer;
+    padding: 3px 5px;;
+    background-color: #169bd4;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+@media all and (max-width: 768px) {
+    .quiz{
+        flex-direction: column;
+    }
+}

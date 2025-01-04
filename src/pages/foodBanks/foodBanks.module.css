@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+}
+
+.hero{
+    width: 100%;
+}
+
+.title{
+    width: 100%;
+}
+
+.title img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.title h1{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.information{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informationBlock ul{
+    margin-left: 20px;
+
+}
+
+.foodBankLocations{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.foodBankLocations button{
+    background-color: #169bd4;
+    padding: 3px 5px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.foodBankLocations button a{
+    text-decoration: none;
+    color: white;
+}
+
+@media all and (max-width: 768px) {
+    .title h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+}

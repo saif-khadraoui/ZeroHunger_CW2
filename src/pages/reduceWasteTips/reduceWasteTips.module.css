@@ -1,0 +1,147 @@
+.container{
+    width: 100%;
+}
+
+.hero{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.title h1{
+    font-size: 32px;
+}
+
+.heroInformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroInformation h3{
+    /* font-size: 28px; */
+}   
+
+.heroInformation p{
+    font-size: 18px;
+    width: 90%;
+}
+
+.informationImages{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.informationImagesWrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.informationImageBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foodTips{
+    width: 100%;
+    padding: 20px;
+}
+
+.foodTipsButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button{
+    width: 100px;
+    cursor: pointer;
+    background-color: #169bd4;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 3px 5px;
+}
+
+.foodTipInformation{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.foodTipInformationWrapper{
+    width: 50%;
+}
+
+.goals{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #efefef;
+}
+
+.goalsHeader h2{
+    font-size: 28px;
+}
+
+.goalsInformation{
+    display: flex;
+    gap: 20px;
+}
+
+.goalsInformationBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px){
+
+    .title h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .informationImagesWrapper{
+        flex-direction: column;
+    }
+
+    .informationImageBlock{
+        width: 100%;
+    }
+
+
+    .foodTipInformationWrapper{
+        width: 100%;
+    }
+
+    .goalsInformation{
+        flex-direction: column;
+    }
+
+    .buttons{
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .buttons button{
+        width: 100px;
+    }
+    
+}
